@@ -1,0 +1,54 @@
+/* basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 1em;
+    background: linear-gradient( #d5c035, #841f6a ) center center no-repeat fixed;
+}
+
+#output {
+    display: flex;
+    margin-top: 2em;
+    padding: 1em;
+    background: rgba(55, 55, 55, 0.25);
+    border-radius: 1em;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#output > img {
+    flex: 0;
+    display: block;
+    margin-right: 1em;
+    width: 150px;
+    height: 150px;
+/*    border-radius: 50%;*/
+    box-shadow: 0 0 10px 5px #000;
+}
+
+#output > .textGroup {
+    flex: 1;
+}
+
+#output > .textGroup > a {
+    color: #fff
+}
+
+#output > ul {
+    position: absolute;
+    top: 320px;
+    flex: none;
+    list-style: none;
+}
+
+#output > ul > li {
+    font-family: monospace;
+    font-size: 0.6em;
+    font-weight: normal;
+}
