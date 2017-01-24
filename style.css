@@ -43,6 +43,7 @@ body {
 #output > ul {
     position: absolute;
     top: 320px;
+    left: 20px;
     flex: none;
     list-style: none;
 }
